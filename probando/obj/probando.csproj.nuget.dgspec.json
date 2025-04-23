@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/miPrimerProyecto/probando/probando.csproj": {}
+    "D:\\CURSO GIT\\carpetaNueva\\miPrimerProyecto\\probando\\probando.csproj": {}
   },
   "projects": {
-    "/workspaces/miPrimerProyecto/probando/probando.csproj": {
+    "D:\\CURSO GIT\\carpetaNueva\\miPrimerProyecto\\probando\\probando.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/miPrimerProyecto/probando/probando.csproj",
+        "projectUniqueName": "D:\\CURSO GIT\\carpetaNueva\\miPrimerProyecto\\probando\\probando.csproj",
         "projectName": "probando",
-        "projectPath": "/workspaces/miPrimerProyecto/probando/probando.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/miPrimerProyecto/probando/obj/",
+        "projectPath": "D:\\CURSO GIT\\carpetaNueva\\miPrimerProyecto\\probando\\probando.csproj",
+        "packagesPath": "C:\\Users\\Equipo\\.nuget\\packages\\",
+        "outputPath": "D:\\CURSO GIT\\carpetaNueva\\miPrimerProyecto\\probando\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Equipo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
